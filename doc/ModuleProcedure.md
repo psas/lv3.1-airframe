@@ -14,7 +14,7 @@ Numbersections: true
 Toc: true
 Pagestyle: plain
 Output:  
-pdf_document:
+  pdf_document:
     latex_engine: xelatex
 ---
 # Introduction
@@ -91,7 +91,7 @@ The figure below shows the waxed mandrel along with a container of Orca skin and
 1. Apply 7 coats of Orca skin the same way, with 10 minutes between coats. This process can be sped up with a heat gun, but you want to make sure the previous coat is as dry as possible, otherwise the wax will streak when you try to work with it.
 1. Wait approximately 1 hour for the wax to completely dry and set.
 
-![The waxed mandrel on the preparation table, along with a container of Orca Skin and Orca Seal](img/skinnedmandrel.jpg)
+![The waxed mandrel on the preparation table, along with a container of Orca Skin and Orca Seal](img/skinnedMandrel.jpg)
 
 ## Coupling Ring Preparation
 #### Coupling Ring Cleaning and Deoxidization
@@ -101,9 +101,7 @@ The figure below shows the waxed mandrel along with a container of Orca skin and
 1. Clean all surfaces with acetone and a blue shop towel to remove metal shavings.
    1. We change gloves before this step to prevent any dust that stuck to the gloves from falling back onto the mandrel.
 
-<div style="width:400px">
 ![Closeup of the coupling ring surfaces](img/CloseupRing.jpg)
-</div>
 
 #### Coupling Ring Conditioning
 1. Put on fresh powderless nitrile gloves.
@@ -152,11 +150,8 @@ The materials that need to be cut are:
 <sub>\*- Remove 3/4 inches from length</sub><br/>
 <sub>\**- Add 3 inches to length</sub>
 
-<div style="width:300px">
   ![Closeup of the template label](img/Label.jpg)
   ![Image of the mandrels from largest to shortest](img/MandrelSizing.jpg)
-</div>
-
 
 It will be useful to label each of these parts so you don't accidentally place the wrong layer in the wrong spot during the layup process. You can write which layer it is in Sharpie on the protective backing of the layers.
 
@@ -176,7 +171,7 @@ Additionally:
 
 Nomex Bending the Right Way | Nomex Bending the Wrong Way
 :---:|:---:
- ![Correct way to lay nomex](img/NomexRightWay.png) | ![Wrong way to lay nomex](img/NomexWrongWay.png)
+ ![Correct way to lay nomex](img/NomexRightWay.PNG) | ![Wrong way to lay nomex](img/NomexWrongWay.PNG)
 
 1. To cut the carbon fiber, it works well to place the corner of the template on the corner of one of the cells (you will have to remove one of the layers of peel ply). The template can then be rotated such that it perfectly lines up with the rows and columns of the fabric. NOTE: this doesn't work with fiberglass.
    1. Make sure the area being cut does not intersect bad portions of the CF.
@@ -200,7 +195,7 @@ What follows is the general procedure for assembling all prepared pieces.
 1. Place the mandrel onto the mandrel holders.
 1. Place the arc clamps on the connecting side of the rings, 6 on each ring, and secure with kapton tape.
 
-  ![Coupling ring with arc clamp](img/Tape_on_Clamps.png)
+  ![Coupling ring with arc clamp](img/Tape_on_Clamps.PNG)
    1. The easiest way to do this is by placing an arc clamp in position and taping it to the previous arc clamp, but if there is an easier way for you, then do that.
    1. Put a couple of screws in the bracket holes to keep the ring of brackets in place. This comes in handy later.
 1. Cover all the screw heads with kapton tape. This will prevent the epoxy or adhesive from flowing into them. Make sure the tape is as secure as possible; this can be done by covering the screw heads with more than one layer of tape.
@@ -274,11 +269,11 @@ The order proceeds as follows:
 1. Arrange the shrink tape on a spool so that the outer surface may be easily applied to the layup (underhand from the spool; overhand onto the layup). This setup puts the mandrel between you and the spool.
 1. Set up a workbench lamp such that it illuminates the layup.
 1. Use kapton tape to fix the shrink tape into the arc clamps. Use lots of tape to fix them in place (one suggestion is to do 2-3 loops around the rings with tape). If it comes loose, the layup will be ruined. If the arc clamps are secured well, they will serve as a strong anchor for the shrink tape.
-![Tape down screw holes before shrink tape](img/preShrinkScrewTape.png)
+![Tape down screw holes before shrink tape](img/preShrinkScrewTape.PNG)
 1. Use your dominant hand to tension the shrink tape against the layup.
 1. Use your off hand to rotate the layup, wrapping the shrink tape around it. If you are working in groups, one person can rotate the mandrel while the other applies the tape. In this case, the off hand can be used to ensure the tape applies evenly.
 1. Adjust the position of your dominant hand such that each turn of the shrink tape overlaps the previous one by 75% (one quarter offset). This should result in the appearance that the surface is covered in a single sheet of double-thick shrink tape. If there are any gaps or triple-overlaps, you must roll the layup backwards and redo those sections. You are basically trying to align the edges of the shrink tape together. Defects due to misalignment of the shrink tape will result in ribbing in the final product.
-    ![Image of offset of shrink tape](img/ShrinkTapeApply.png)
+    ![Image of offset of shrink tape](img/ShrinkTapeApply.PNG)
    1. Note: there will be ribbing regardless of what you do, but this step minimizes how prominent that ribbing is.
 1. Every 3 or 4 rotations, add a piece of kapton or flash tape to save your progress, and adjust the positions of the lamp and tape spool to your convenience as you go. The lamp is used to illuminate the are where you are working and make the overlapping process easier to see.
 1. When you reach the end of the opposite coupling ring, repeat the wrapping process until you end up back where you started (basically go down and back the length of the module). This will create a double layer of shrink tape.
@@ -329,9 +324,7 @@ This part of the procedure can only be done in EB 480 or otherwise with an oven 
 1. After it reaches 350°F, hold the oven at that temperature for two hours.
 1. Ramp down the oven temperature by 5°F per hour. Use the oven door to control this cooldown by opening it slightly for faster cooling.
 
-<div style="width:400px">
 ![Image of temperature guide that is taped to oven](img/ovenTempGuide.jpg)
-</div>
 
 ## Removal from mandrel
 
