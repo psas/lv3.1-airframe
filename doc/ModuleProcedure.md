@@ -102,7 +102,7 @@ The figure below shows the waxed mandrel along with a container of Orca skin and
    1. We change gloves before this step to prevent any dust that stuck to the gloves from falling back onto the mandrel.
 
 <div style="width:400px">
-![Closeup of the coupling ring surfaces](img/CloseupRing.JPG)
+![Closeup of the coupling ring surfaces](img/CloseupRing.jpg)
 </div>
 
 #### Coupling Ring Conditioning
@@ -200,7 +200,7 @@ What follows is the general procedure for assembling all prepared pieces.
 1. Place the mandrel onto the mandrel holders.
 1. Place the arc clamps on the connecting side of the rings, 6 on each ring, and secure with kapton tape.
 
-  ![Coupling ring with arc clamp](img/Tape_on_Clamps.PNG)
+  ![Coupling ring with arc clamp](img/Tape_on_Clamps.png)
    1. The easiest way to do this is by placing an arc clamp in position and taping it to the previous arc clamp, but if there is an easier way for you, then do that.
    1. Put a couple of screws in the bracket holes to keep the ring of brackets in place. This comes in handy later.
 1. Cover all the screw heads with kapton tape. This will prevent the epoxy or adhesive from flowing into them. Make sure the tape is as secure as possible; this can be done by covering the screw heads with more than one layer of tape.
@@ -278,7 +278,7 @@ The order proceeds as follows:
 1. Use your dominant hand to tension the shrink tape against the layup.
 1. Use your off hand to rotate the layup, wrapping the shrink tape around it. If you are working in groups, one person can rotate the mandrel while the other applies the tape. In this case, the off hand can be used to ensure the tape applies evenly.
 1. Adjust the position of your dominant hand such that each turn of the shrink tape overlaps the previous one by 75% (one quarter offset). This should result in the appearance that the surface is covered in a single sheet of double-thick shrink tape. If there are any gaps or triple-overlaps, you must roll the layup backwards and redo those sections. You are basically trying to align the edges of the shrink tape together. Defects due to misalignment of the shrink tape will result in ribbing in the final product.
-    ![Image of offset of shrink tape](img/ShrinkTapeApply.PNG)
+    ![Image of offset of shrink tape](img/ShrinkTapeApply.png)
    1. Note: there will be ribbing regardless of what you do, but this step minimizes how prominent that ribbing is.
 1. Every 3 or 4 rotations, add a piece of kapton or flash tape to save your progress, and adjust the positions of the lamp and tape spool to your convenience as you go. The lamp is used to illuminate the are where you are working and make the overlapping process easier to see.
 1. When you reach the end of the opposite coupling ring, repeat the wrapping process until you end up back where you started (basically go down and back the length of the module). This will create a double layer of shrink tape.
@@ -330,7 +330,7 @@ This part of the procedure can only be done in EB 480 or otherwise with an oven 
 1. Ramp down the oven temperature by 5°F per hour. Use the oven door to control this cooldown by opening it slightly for faster cooling.
 
 <div style="width:400px">
-![Image of temperature guide that is taped to oven](img/OvenTempGuide.JPG)
+![Image of temperature guide that is taped to oven](img/ovenTempGuide.jpg)
 </div>
 
 ## Removal from mandrel
@@ -358,7 +358,7 @@ This part of the procedure can only be done in EB 480 or otherwise with an oven 
 
 If done properly, this should result in a module with maybe a few thin creases from flaws in the shrink tape. Adhesive-surfaced modules should be finished with 600 and 1500 grit wet sanding. (do not submerge!)
 
-![Final product](img/FinalModule.JPG)
+![Final product](img/FinalModule.jpg)
 
 ## (Optional) Sanding
 
