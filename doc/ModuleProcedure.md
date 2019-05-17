@@ -171,8 +171,9 @@ Additionally:
    1. You should only be cutting single rows of cells (don't cross from one row to another).
 
 Nomex Bending the Right Way | Nomex Bending the Wrong Way
-   :---:|:---:
-    ![Correct way to lay nomex](img/NomexRightWay.PNG) | ![Wrong way to lay nomex](img/NomexWrongWay.PNG)
+:---:|:---:
+![Correct way to lay nomex](img/NomexRightWay.PNG) | ![Wrong way to lay nomex](img/NomexWrongWay.PNG)
+
 1. To cut the carbon fiber, it works well to place the corner of the template on the corner of one of the cells (you will have to remove one of the layers of peel ply). The template can then be rotated such that it perfectly lines up with the rows and columns of the fabric. NOTE: this doesn't work with fiberglass.
    1. Make sure the area being cut does not intersect bad portions of the CF.
 1. While one person moderately presses down on the template, another person should cut along the edges with a utility knife, pressing hard enough to cut through the material.
