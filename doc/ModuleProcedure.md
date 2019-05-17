@@ -5,7 +5,8 @@ Author:
   - Joe Shields
   - Leslie Elwood
   - Alex Farias
-Edited:
+Revision: Version 3.1
+Revised by:
   - Gabe Paris
 Fontsize: 12pt
 Documentclass: article
@@ -22,7 +23,7 @@ This is the procedure to make a cylindrical module specifically for the Launch V
 
 This procedure takes about 5 hours if you have three people working on it, not counting the 5 hour cure cycle. If you're following this procedure for the first time, it will probably be closer to 7 or 8 hours. If you *really* know what you're doing, one person can do it, but it's not nice to make one person work for 10 hours straight. If you're trying modifications to this procedure, it's a good idea to do so on a smaller mandrel with no coupling rings, since that takes off a lot of the time.
 
-The composites training video can be found [here](https://youtube.com), and it goes over the process of making these modules. If this is your first time following this procedure, please watch the video first.
+The composites training video can be found here [link coming soon], and it goes over the process of making these modules. If this is your first time following this procedure, please watch the video first.
 
 ## Materials
 ### Consumables
@@ -79,6 +80,8 @@ The following steps can be done in parallel. If you have the space and the peopl
 #### Mandrel Conditioning
 The figure below shows the waxed mandrel along with a container of Orca skin and Orca wax. This should be done in an area with good ventilation because the wax chemicals are very potent.
 
+![The waxed mandrel on the preparation table, along with a container of Orca Skin and Orca Seal](img/skinnedMandrel.jpg)
+
 1. Put on (Brand new!) powderless nitrile gloves.
 1. Place the freshly sanded mandrel to be conditioned on the mandrel holders.
 1. Fill mandrel threaded holes with separation wax.
@@ -90,8 +93,6 @@ The figure below shows the waxed mandrel along with a container of Orca skin and
    1. Let the coat of wax dry a little before procedding with the next coat. This drying process can be sped up with a heat gun.
 1. Apply 7 coats of Orca skin the same way, with 10 minutes between coats. This process can be sped up with a heat gun, but you want to make sure the previous coat is as dry as possible, otherwise the wax will streak when you try to work with it.
 1. Wait approximately 1 hour for the wax to completely dry and set.
-
-![The waxed mandrel on the preparation table, along with a container of Orca Skin and Orca Seal](img/skinnedMandrel.jpg)
 
 ## Coupling Ring Preparation
 #### Coupling Ring Cleaning and Deoxidization
@@ -107,6 +108,7 @@ The figure below shows the waxed mandrel along with a container of Orca skin and
 1. Put on fresh powderless nitrile gloves.
 1. Mix the 3M AC-130 pre-treatment solution according to the instructions within the kit.
 1. Continuously apply the anti-galvanic 3M AC-130 to the adhering surfaces for 3 minutes with a brush (like a watercolor painter, slowly rotating around the whole adhering surfaces-- but do so for 3 minutes, rather than a certain number of rotations).
+![Closeup of the anti galvanic process with a brush](img/antiGalvanicRing.PNG)
 1. Take care not to touch the adhering surfaces from this point on because it will contaminate the anti-galvanic and you will have to re-apply it.
 1. Wait for 10 minutes to allow the solution to dry.
 1. Put on fresh powderless nitrile gloves.
@@ -117,8 +119,6 @@ The figure below shows the waxed mandrel along with a container of Orca skin and
 1. Apply 1 coat of Orca seal to the innermost surface using the same method as with the mandrel.
 1. Apply 3 coats of Orca skin to the innermost surface, waiting 10 minutes between coats.
 1. Wait for 60 minutes.
-
-![Closeup of the anti galvanic process with a brush](img/antiGalvanicRing.PNG)
 
 **IMPORTANT: _If the adhering surface of the rings is disturbed, it will affect the performance of the completed module, so take care to avoid touching these areas because you will have to clean the adhering surface and re-galvanize it._**
 
@@ -131,6 +131,8 @@ Cut the following layers using the General Template Use instructions below. The 
 <p align="center">
 [Template]-[Size]-[Layer Identifier]
 </p>
+
+The template code can be found in the corner of the template, as shown here:  ![Closeup of the template label](img/Label.jpg)
 
 The size part of the code refers to the mandrel you are using. The "X" is to be replaced with A, B, or C, where A is the smallest mandrel (image below). The layer identifier indicates if the piece is:
 1. An inner or outer layup piece (I or O)
@@ -150,10 +152,10 @@ The materials that need to be cut are:
 <sub>\*- Remove 3/4 inches from length</sub><br/>
 <sub>\**- Add 3 inches to length</sub>
 
-  ![Closeup of the template label](img/Label.jpg)
-  ![Image of the mandrels from largest to shortest](img/MandrelSizing.jpg)
+Mandrel sizes:
+![Image of the mandrels from largest to shortest](img/MandrelSizing.jpg)
 
-It will be useful to label each of these parts so you don't accidentally place the wrong layer in the wrong spot during the layup process. You can write which layer it is in Sharpie on the protective backing of the layers.
+It will be useful to label each of the layup parts so you don't accidentally place the wrong layer in the wrong spot during the layup process. You can write which layer it is in Sharpie on the protective backing of the layers.
 
 Additionally:
 
@@ -168,17 +170,14 @@ Additionally:
    1. When cutting the overexpanded nomex honeycomb core material, make sure the template is oriented correctly! The overexpanded cells only bend in one direction. Make sure the template is oriented such that the nomex will be able to bend around the cylinder.
    1. You should only be cutting single rows of cells (don't cross from one row to another).
 
-
 Nomex Bending the Right Way | Nomex Bending the Wrong Way
-:---:|:---:
- ![Correct way to lay nomex](img/NomexRightWay.PNG) | ![Wrong way to lay nomex](img/NomexWrongWay.PNG)
-
+   :---:|:---:
+    ![Correct way to lay nomex](img/NomexRightWay.PNG) | ![Wrong way to lay nomex](img/NomexWrongWay.PNG)
 1. To cut the carbon fiber, it works well to place the corner of the template on the corner of one of the cells (you will have to remove one of the layers of peel ply). The template can then be rotated such that it perfectly lines up with the rows and columns of the fabric. NOTE: this doesn't work with fiberglass.
    1. Make sure the area being cut does not intersect bad portions of the CF.
 1. While one person moderately presses down on the template, another person should cut along the edges with a utility knife, pressing hard enough to cut through the material.
    1. It also works well to place weights on the templates while cutting, especially when cutting the adhesive and if you are working by yourself.
 1. Lift up the outside portion of the cut before removing the template to check that the cut is complete. If it isn't, slice the remaining material.
-
 ![Use of template for CF and Adhesive](img/TrimCF.PNG)
 
 # Assembly
@@ -194,7 +193,6 @@ What follows is the general procedure for assembling all prepared pieces.
 1. Screw the coupling rings to the mandrel. It works best to place the mandrel upright with one person sliding down the coupling ring from the top and another person fastening the screws.
 1. Place the mandrel onto the mandrel holders.
 1. Place the arc clamps on the connecting side of the rings, 6 on each ring, and secure with kapton tape.
-
   ![Coupling ring with arc clamp](img/Tape_on_Clamps.PNG)
    1. The easiest way to do this is by placing an arc clamp in position and taping it to the previous arc clamp, but if there is an easier way for you, then do that.
    1. Put a couple of screws in the bracket holes to keep the ring of brackets in place. This comes in handy later.
@@ -211,7 +209,6 @@ We will be using the **Special Peel Technique** for each of the materials that h
 1. Roll the overlapping end back onto the mandrel.
 
 The order proceeds as follows:
-
 ![Drawing depicting the order of materials in the layup](img/LayupGuide.jpg)
 
 ##### Release Film:
@@ -322,9 +319,20 @@ This part of the procedure can only be done in EB 480 or otherwise with an oven 
 1. Ramp up the the oven at 3°F per minute until it reaches 350°F.
 1. Place the snorkels/fume hoods above the oven, open all the doors of the room, and place a fan in at least one doorway.
 1. After it reaches 350°F, hold the oven at that temperature for two hours.
-1. Ramp down the oven temperature by 5°F per hour. Use the oven door to control this cooldown by opening it slightly for faster cooling.
+1. Ramp down the oven temperature by no more than 5°F per hour. Use the oven door to control this cooldown by opening it slightly for faster cooling.
 
-![Image of temperature guide that is taped to oven](img/ovenTempGuide.jpg)
+| Time (min) | Temperature (F) |
+|:---:|:---:|
+|0:00 | 75 |
+|0:15 | 120 |
+|0:30 | 165 |
+|0:45 | 210 |
+|1:00 | 255 |
+|1:15 | 300 |
+|1:30 | 350 |
+| -- 2 hours --| *Hold* |
+|3:30 | *Cooldown* |
+
 
 ## Removal from mandrel
 
