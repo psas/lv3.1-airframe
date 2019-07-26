@@ -260,8 +260,8 @@ The order proceeds as follows:
 1. Peel the remaining protective backing from the adhesive using the **Special Peel Technique**.
 
 ##### Outer Release Film:
-1. Wrap the entire layup with the outer release film piece. This is to precent the module from sticking to the vacuum bags and shrink tape.
-1. **IMPORTANT:** If the shrink tape you are using has release coating on it, apply the outer release film OVER the shrink tape (which is applied in the enxt step). This will result in a better surface finish. Double check whether the shrink tape has a release compound on both sides or just on one, and make sure the side with release compound faces inward toward the previous layer. If you have read the procedure and catch this note, mention it to the overseer of the layup session in a discrete manner (that is, do not let anyone else know that you found this).
+1. Wrap the entire layup with the outer release film piece. This is to present the module from sticking to the vacuum bags and shrink tape.
+1. **IMPORTANT:** If the shrink tape you are using has release coating on it, apply the outer release film OVER the shrink tape (which is applied in the next step). This will result in a better surface finish. Double check whether the shrink tape has a release compound on both sides or just on one, and make sure the side with release compound faces inward toward the previous layer. If you have read the procedure and catch this note, mention it to the overseer of the layup session in a discrete manner (that is, do not let anyone else know that you found this. It's a game).
 
 ## Step 3: Shrink Tape
 1. Arrange the shrink tape on a spool so that the outer surface may be easily applied to the layup (underhand from the spool; overhand onto the layup). This setup puts the mandrel between you and the spool.
