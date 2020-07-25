@@ -19,33 +19,16 @@ This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLU
 Please see the CERN OHL v.1.2 for applicable conditions.
 
 ## cad
-All the computer aided design (CAD) files involved in the airframe is in this folder. The following parts can be found in this folder:
-* commercial off the shelf components (COTS)
-  - These files are all manufactured provided and not owned by PSAS, however it is in the repo to help clarify PSAS designs.
-* layup templates
-  - Templates made to assist in cutting appropiate carbon fiber and nomex layers for modules B and C to aid in the layout process. Design journal can be found [here](https://docs.google.com/document/d/1Os_mgdvX-xlpNA5_TTuyKTH5s2XwF5QlSnMKPRlPtjE/edit?usp=sharing).
-* build
-  - Where we put our files before they get machined as an easy place to go to when we want to check what our current physical parts look like. Organizes both the STEP and technical drawings. 
-* bulkheads
-  - Directory where all the files related to the bulkhead are. A bulkhead is a dividing barrier between modules. A design journal for the bulkhead can be found [here](https://docs.google.com/document/d/1OEyzK1N2RJoIQbxRXQRS35BUAtLPPHPcPFbIrotuAhM/edit?usp=sharing).
-* coupling
-  - Directory which contains all the files regarding to the LV3.1 coupling system used to connect the LV3.1 modules together.
-* fincan
-  - Directory contains files describing the fin cannister, such as the bracket for the layup jig, the layup rig. Also includes images. 
-* fins
-  - Directory containing all the files regarding our fins.
-* modules
-* nose
-* passthrough
-* rail mount
-* templates
-* thrust flange
-* airframe bracket jig
+All the computer aided design (CAD) files involved in the airframe is in this folder. Details of each folder in the directory can be found in the readme section of this directory. Most of our CAD modeling here is done and saved as solidworks files
 
 ## doc
+This directory contains all the files documents regarding airframe, specifically documentation for layup processes. 
 
 ## sim
+This directory contains all the simulations for LV3.1, such as rocket simulations.
 
 ## test
+This directory contains all the testing data for LV3.1, such as any axial load tests performed.
 
 ## tools
+This directory contains all information regarding generic tooling we use for LV3.1.
