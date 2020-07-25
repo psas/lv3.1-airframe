@@ -22,7 +22,7 @@ This directory contains all our computer aided design (CAD) files. This includes
 * Passthrough
   - Directory containing files for the passthrough ring for our rocket. This is a module where all the camera mounts will be.
 * Rail mount
-  - Drectory containing files deccribing the system that mounts the rocket to the launch rail.
+  - Directory containing files deccribing the system that mounts the rocket to the launch rail.
 * Templates
   - Drawing templates (solidworks).
 * Thrust flange
