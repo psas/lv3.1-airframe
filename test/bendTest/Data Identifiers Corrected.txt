@@ -1,0 +1,4 @@
+Voltage_0: Load kN (calibrated and zeroed)
+Voltage_1: Red Strain Gauge (multiplied not zeroed) (Right)
+Voltage_2: Laser strain gauge (distance of markers measured in inches).
+Voltage_3: Blue Strain Gauge (multiplied not zeroed) (Left)
