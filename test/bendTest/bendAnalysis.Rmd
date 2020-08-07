@@ -1,0 +1,90 @@
+---
+title: Analysis of LV3.1 Bend Test
+author: Joe Shields
+output:
+    pdf_document
+---
+
+Let's take an initial look at the raw instrumentation data.
+
+```{r loadInstrumentData, echo=F, results=F}
+# read in data
+indat <- read.csv('Gen2Module StressTest1.txt', skip=5) # instrumentation data
+names(indat) <- c('Row', 'Time', 'Load_kN', 'strain_red', 'strain_laser', 'strain_blue')
+options(digits.secs=3) # print times to ms precision
+
+# massage the time into something manageable (decimal seconds)
+indat$Time <- strptime(indat$Time, format='%H:%M:%OS %p') # see `?strptime`
+seconds <- as.double(format.POSIXlt(indat$Time, "%OS"))
+minutes <- as.double(format.POSIXlt(indat$Time, "%M"))
+hours   <- as.double(format.POSIXlt(indat$Time, "%H"))
+indat$Time <- seconds + 60*minutes + 3600*hours
+indat$Time <- indat$Time - indat$Time[1] # start the clock at zero
+
+# remove offsets
+zeroingEndTime <- 100 # s, time at which to stop zeroing the system
+zeroingEndInd <- which.max(indat$Time >= zeroingEndTime) # first index where this is true
+
+loadOffset         <- mean(indat$Load_kN[1:zeroingEndInd])
+strainOffset_right <- mean(indat$strain_red[1:zeroingEndInd])
+strainOffset_left  <- mean(indat$strain_blue[1:zeroingEndInd])
+extentOffset       <- mean(indat$strain_laser[1:zeroingEndInd])
+
+indat$strain_red   <- indat$strain_red - strainOffset_right
+indat$strain_blue  <- indat$strain_blue - strainOffset_left
+indat$strain_laser <- indat$strain_laser - extentOffset
+
+sprintf('load offset: %0.3f kN', loadOffset)
+sprintf('strain offset (right): %0.3f', strainOffset_right)
+sprintf('strain offset (left): %0.3f', strainOffset_left)
+sprintf('extent offset: %0.3f', extentOffset)
+```
+
+```{r loadHist, echo=T}
+plot(
+     indat$Time, indat$Load_kN, type='l', 
+     xlab='time (s)', ylab='load (kN)',
+     main='Center Load History'
+)
+abline(v=zeroingEndTime, col='blue')
+range(indat$Load_kN) # max and min loads
+```
+
+```{r strainHist_right}
+plot(
+     indat$Time, indat$strain_red, type='l', 
+     xlab='time (s)', ylab='strain',
+     main='Strain History\nRight Cell'
+)
+```
+
+```{r strainHist_left}
+plot(
+     indat$Time, indat$strain_blue, type="l", 
+     xlab='time (s)', ylab='left cell strain',
+     main='Strain History', sub='Left Cell'
+)
+```
+
+```{r extentHist}
+plot(
+     indat$Time, indat$strain_laser, type='l', 
+     xlab='time (s)', ylab='center extension (in)',
+     main='Extension History'
+)
+```
+
+```{r blarg, eval=F}
+1145*(60.0625^3)*(6+6.65)/(24*(6^3+2*6.65^3))/(4.216e6)
+#right_b1 <- read.csv('tracking/block1/')
+right_b2 <- read.csv('tracking/block2/right/rightSideCombined2.csv')
+#right_b3 <- read.csv('tracking/block3/')
+left_b1 <- read.csv('tracking/block1/leftSideCombined1.csv')
+left_b2 <- read.csv('tracking/block2/left/leftSideCombined2.csv')
+left_b3 <- read.csv('tracking/block3/leftSideCombined3.csv')
+names(left_b1)
+names(left_b2)
+names(left_b3)
+intersect(names(left_b1), names(left_b2))
+leftDat <- merge(left_b1, left_b2)
+```
